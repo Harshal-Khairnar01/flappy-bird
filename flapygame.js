@@ -58,3 +58,4 @@ function jump() {
 
 
 window.addEventListener("keydown", jump);
+window.addEventListener("touchstart", jump); 

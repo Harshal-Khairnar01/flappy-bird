@@ -1,0 +1,79 @@
+@media screen and (max-width: 600px) {
+     #game {
+        width: 90vw;
+        height: 55vh;
+        margin: 20px auto;
+        background-size: cover;
+        border: 2px solid black;
+    }
+
+    #block,
+    #hole {
+        width: 12vw;
+        animation: block 2s linear infinite;
+    }
+
+    #hole {
+        height: 20vh;
+        border-top: 5px solid black;
+        border-bottom: 5px solid black;
+    }
+
+    #bird {
+        width: 12vw;
+        height: 12vw;
+    }
+
+    #shwscr {
+        position: relative;
+        width: 30vw;
+        height: 6vh;
+        top: 10px;
+        right: 0;
+        margin: 0 auto;
+        font-size: 4vw;
+    }
+
+    #head {
+      
+        width: 40vw;
+        left: 120px;
+        top: 50vh;
+       
+    }
+
+    #result {
+        width: 80vw;
+        height: auto;
+        padding: 1rem;
+        margin-top: 100px;
+    }
+
+    #result #go {
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    #result #go img {
+        width: 60%;
+    }
+
+    #result #scr {
+        font-size: 5vw;
+        margin-top: 1rem;
+    }
+
+    #result #btn {
+        width: 60vw;
+        height: 10vh;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 4vw;
+    }
+
+    #result #btn img {
+        width: 70%;
+    }
+}
